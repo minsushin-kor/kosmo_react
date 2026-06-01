@@ -1,0 +1,70 @@
+# ==========================================
+# 🍞 Maum Bread - React/Vite Git Ignore List
+# ==========================================
+
+# 1. Dependencies & Package Managers
+node_modules/
+.pnpm-store/
+jspm_packages/
+web_modules/
+
+# 2. Production Build Outputs
+dist/
+dist-ssr/
+build/
+out/
+
+# 3. Sensitive Configuration Files & Secrets (CRITICAL SECURITY)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.local
+secrets.json
+credentials.json
+*.pem
+*.key
+*.pfx
+
+# 4. Logs, Errors, & Cache
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.eslintcache
+.stylelintcache
+.prettiercache
+.parcel-cache
+.cache/
+.vite/
+.turbo/
+
+# 5. Testing & Coverage
+coverage/
+*.lcov
+.nyc_output
+
+# 6. Operating System Specific Files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 7. Editors & IDE Configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*.tmp
+*.temp
